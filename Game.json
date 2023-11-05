@@ -135,6 +135,15 @@
         "name": "adas-1.png.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -147,6 +156,12 @@
       "name": "Gravity",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "RandomVelkosti",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -170,7 +185,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673766,
+        "zoomFactor": 0.584378441074094,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -638,9 +653,9 @@
               "yGrabOffset": 0
             },
             {
+              "gravity": 700,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "gravity": 1000,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -671,6 +686,118 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 15
+                          },
+                          {
+                            "x": 2,
+                            "y": 14
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          },
+                          {
+                            "x": 0,
+                            "y": 11
+                          },
+                          {
+                            "x": 0,
+                            "y": 5
+                          },
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 0
+                          },
+                          {
+                            "x": 13,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 5
+                          },
+                          {
+                            "x": 16,
+                            "y": 11
+                          },
+                          {
+                            "x": 15,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 13,
+                            "y": 15
+                          },
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 5,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite-1.png.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1583,6 +1710,16 @@
             },
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "RandomVelkosti",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -1610,6 +1747,93 @@
                 "Resizable",
                 "46",
                 "46"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RandomVelkosti",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawn\""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawn\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "RandomVelkosti",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Melon2",
+                "642",
+                "226",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Melon2",
+                "Resizable",
+                "70",
+                "70"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RandomVelkosti",
+                "=",
+                "1"
               ]
             },
             {
@@ -1743,11 +1967,76 @@
           "conditions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "Melon2",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Melon2",
+                "=",
+                "226"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "Melon2",
+                "Draggable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Melon2",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Melon2",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "PosY"
               },
               "parameters": [
-                "Melon",
+                "Melon2",
                 "=",
                 "226"
               ]
@@ -1759,36 +2048,10 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Melon",
+                "Melon2",
                 "90",
                 "500",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "Melon",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Melon",
-                "+",
-                "5"
               ]
             }
           ]
