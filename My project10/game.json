@@ -2010,6 +2010,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -2415,7 +2418,6 @@
         {
           "assetStoreId": "611e6ddf02acb40ee8eb3af3e64bd1986774fa390b8511f82edf431efaaa6c84",
           "name": "Backround",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -2453,7 +2455,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "ButtonPlay",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2517,7 +2518,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "ButtonSettings",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2581,7 +2581,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "ButtonExit",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2645,7 +2644,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "Back",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2712,7 +2710,6 @@
           "italic": false,
           "name": "Paused",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2734,7 +2731,6 @@
           "italic": false,
           "name": "Paused2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2756,7 +2752,6 @@
           "italic": false,
           "name": "Settings",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2778,7 +2773,6 @@
           "italic": false,
           "name": "Settings2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2798,7 +2792,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pauza",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2860,7 +2853,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Settingy",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2924,7 +2916,6 @@
           "italic": false,
           "name": "Sound",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2943,7 +2934,6 @@
         {
           "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
           "name": "Zvuk",
-          "tags": "",
           "type": "PanelSpriteSlider::PanelSpriteSlider",
           "variables": [],
           "effects": [],
@@ -3009,7 +2999,6 @@
           "italic": false,
           "name": "Music",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -3028,7 +3017,6 @@
         {
           "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
           "name": "Hudba",
-          "tags": "",
           "type": "PanelSpriteSlider::PanelSpriteSlider",
           "variables": [],
           "effects": [],
@@ -3092,7 +3080,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3151,6 +3138,59 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Backround"
+          },
+          {
+            "objectName": "ButtonPlay"
+          },
+          {
+            "objectName": "ButtonSettings"
+          },
+          {
+            "objectName": "ButtonExit"
+          },
+          {
+            "objectName": "Back"
+          },
+          {
+            "objectName": "Paused"
+          },
+          {
+            "objectName": "Paused2"
+          },
+          {
+            "objectName": "Settings"
+          },
+          {
+            "objectName": "Settings2"
+          },
+          {
+            "objectName": "Pauza"
+          },
+          {
+            "objectName": "Settingy"
+          },
+          {
+            "objectName": "Sound"
+          },
+          {
+            "objectName": "Zvuk"
+          },
+          {
+            "objectName": "Music"
+          },
+          {
+            "objectName": "Hudba"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3429,7 +3469,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5488496058553494,
+        "zoomFactor": 0.4351429519019243,
         "windowMask": false
       },
       "objectsGroups": [
@@ -12224,7 +12264,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Hrac",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -12752,7 +12791,6 @@
         {
           "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
           "name": "Zivoty",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -12820,7 +12858,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Hviezdicky",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13206,7 +13243,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemakCerveny",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13897,7 +13933,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Lava",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13940,7 +13975,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Coin",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14073,7 +14107,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CoinCounter",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14116,7 +14149,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Sip",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14178,7 +14210,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Spiky",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14240,7 +14271,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ladder",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14310,7 +14340,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kontrolnaplatforma",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14380,7 +14409,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DrevenaPlatforma",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14450,7 +14478,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DrevenaPlatforma2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14531,7 +14558,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "chest",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14637,7 +14663,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "VelaZlata",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14679,7 +14704,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "SipikyBar",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15192,7 +15216,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Potion",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15254,7 +15277,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15297,7 +15319,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Necromancer",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -15712,7 +15733,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "OtockaPreNecromancera",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15774,7 +15794,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "skull",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15836,7 +15855,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Luk",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15930,7 +15948,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Boss",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -17602,7 +17619,6 @@
         {
           "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
           "name": "BossBar",
-          "tags": "",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variables": [],
           "effects": [],
@@ -17670,7 +17686,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "fireball",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17752,7 +17767,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "FireballCheck",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17814,7 +17828,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kluc",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17856,7 +17869,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kluc2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17898,7 +17910,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dvere1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17978,7 +17989,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dvere2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18058,7 +18068,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Shop",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18128,7 +18137,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "IntoShop",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18171,7 +18179,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Mec",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18280,7 +18287,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Mec2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18389,7 +18395,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MecVObchode",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18587,7 +18592,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dyka",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18687,7 +18691,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DykaVShope",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18829,7 +18832,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SipDoSkore",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18872,7 +18874,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SipNaZemi",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18915,7 +18916,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SipDoShopu",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18958,7 +18958,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Srdiecko",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19001,7 +19000,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Level1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19044,7 +19042,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "CheckingLevelu1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19106,7 +19103,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Level2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19179,7 +19175,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Checkinglevelu2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19241,7 +19236,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Level3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19314,7 +19308,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Level4",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19387,7 +19380,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Cannon",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19467,7 +19459,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Cannon2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19533,7 +19524,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PlatformaVrch",
-          "tags": "",
           "texture": "New image",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19553,7 +19543,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PatformaSpodok",
-          "tags": "",
           "texture": "New image-1.png5.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19573,7 +19562,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVlavoVrch",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19655,7 +19643,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19737,7 +19724,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PlatformaVlavoStred",
-          "tags": "",
           "texture": "New image-1.png.png2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19757,7 +19743,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PlatformaVpravoStred",
-          "tags": "",
           "texture": "New image-1.png.png-1.png.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19777,7 +19762,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "NormalPlatforma",
-          "tags": "",
           "texture": "New image-1.png2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19797,7 +19781,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Stred",
-          "tags": "",
           "texture": "New image-1.png3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19817,7 +19800,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "VnutroCave",
-          "tags": "",
           "texture": "New image-1.png3.png2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19829,7 +19811,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaLavyRoh",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19880,7 +19861,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaPravyRoh",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -19931,7 +19911,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVlavoAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20001,7 +19980,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVpravoAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20071,7 +20049,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatformaVlavo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20122,7 +20099,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatforma_Vpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20173,7 +20149,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatformaVpravoVpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20224,7 +20199,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatformaVlavoVlavo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20275,7 +20249,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaHoreAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20345,7 +20318,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaDoleAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20415,7 +20387,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlnaSPravymRohom",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20466,7 +20437,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlnaSPravymRohom2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20517,7 +20487,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FakePlatformVpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20579,7 +20548,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FakePlatformPlna",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20622,7 +20590,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DajakaDivnaPlatforma",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20665,7 +20632,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackRound",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20708,7 +20674,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackRound2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20751,7 +20716,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "InsidePortal",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -20796,7 +20760,6 @@
           "italic": false,
           "name": "PocetCoinov",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20818,7 +20781,6 @@
           "italic": false,
           "name": "PocetCoinov2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20840,7 +20802,6 @@
           "italic": false,
           "name": "CommingSoon",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20862,7 +20823,6 @@
           "italic": false,
           "name": "MiniNavod",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20884,7 +20844,6 @@
           "italic": false,
           "name": "NavodNaMiniPravdla",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20906,7 +20865,6 @@
           "italic": false,
           "name": "ShopNavod",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20928,7 +20886,6 @@
           "italic": false,
           "name": "LevelNavod",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20950,7 +20907,6 @@
           "italic": false,
           "name": "ShopShoppingNavod",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -20967,6 +20923,273 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "DamageVeci",
+            "children": [
+              {
+                "objectName": "BossBar"
+              },
+              {
+                "objectName": "Boss"
+              },
+              {
+                "objectName": "skull"
+              },
+              {
+                "objectName": "Necromancer"
+              },
+              {
+                "objectName": "EnemakCerveny"
+              },
+              {
+                "objectName": "Lava"
+              },
+              {
+                "objectName": "Spiky"
+              },
+              {
+                "objectName": "Cannon2"
+              },
+              {
+                "objectName": "Cannon"
+              }
+            ]
+          },
+          {
+            "folderName": "Platformy",
+            "children": [
+              {
+                "objectName": "DrevenaPlatforma2"
+              },
+              {
+                "objectName": "DrevenaPlatforma"
+              },
+              {
+                "objectName": "VnutroCave"
+              },
+              {
+                "objectName": "Stred"
+              },
+              {
+                "objectName": "NormalPlatforma"
+              },
+              {
+                "objectName": "PlatformaVpravoStred"
+              },
+              {
+                "objectName": "PlatformaVlavoStred"
+              },
+              {
+                "objectName": "PlatformaVpravo"
+              },
+              {
+                "objectName": "PlatformaVlavoVrch"
+              },
+              {
+                "objectName": "PlatformaVrch"
+              },
+              {
+                "objectName": "PatformaSpodok"
+              },
+              {
+                "objectName": "PlatformaLavyRoh"
+              },
+              {
+                "objectName": "PlatformaPravyRoh"
+              },
+              {
+                "objectName": "PlatformaVpravoAEsteNieco"
+              },
+              {
+                "objectName": "PlatformaVlavoAEsteNieco"
+              },
+              {
+                "objectName": "DalsiaPlatformaVlavo"
+              },
+              {
+                "objectName": "DalsiaPlatforma_Vpravo"
+              },
+              {
+                "objectName": "DalsiaPlatformaVpravoVpravo"
+              },
+              {
+                "objectName": "DalsiaPlatformaVlavoVlavo"
+              },
+              {
+                "objectName": "PlatformaHoreAEsteNieco"
+              },
+              {
+                "objectName": "PlatformaDoleAEsteNieco"
+              },
+              {
+                "objectName": "PlnaSPravymRohom"
+              },
+              {
+                "objectName": "PlnaSPravymRohom2"
+              },
+              {
+                "objectName": "FakePlatformVpravo"
+              },
+              {
+                "objectName": "FakePlatformPlna"
+              },
+              {
+                "objectName": "DajakaDivnaPlatforma"
+              }
+            ]
+          },
+          {
+            "objectName": "Hrac"
+          },
+          {
+            "objectName": "Zivoty"
+          },
+          {
+            "objectName": "Hviezdicky"
+          },
+          {
+            "objectName": "Coin"
+          },
+          {
+            "objectName": "CoinCounter"
+          },
+          {
+            "objectName": "Sip"
+          },
+          {
+            "objectName": "ladder"
+          },
+          {
+            "objectName": "Kontrolnaplatforma"
+          },
+          {
+            "objectName": "chest"
+          },
+          {
+            "objectName": "VelaZlata"
+          },
+          {
+            "objectName": "SipikyBar"
+          },
+          {
+            "objectName": "Potion"
+          },
+          {
+            "objectName": "Portal"
+          },
+          {
+            "objectName": "OtockaPreNecromancera"
+          },
+          {
+            "objectName": "Luk"
+          },
+          {
+            "objectName": "fireball"
+          },
+          {
+            "objectName": "FireballCheck"
+          },
+          {
+            "objectName": "Kluc"
+          },
+          {
+            "objectName": "Kluc2"
+          },
+          {
+            "objectName": "Dvere1"
+          },
+          {
+            "objectName": "Dvere2"
+          },
+          {
+            "objectName": "Shop"
+          },
+          {
+            "objectName": "IntoShop"
+          },
+          {
+            "objectName": "Mec"
+          },
+          {
+            "objectName": "Mec2"
+          },
+          {
+            "objectName": "MecVObchode"
+          },
+          {
+            "objectName": "Dyka"
+          },
+          {
+            "objectName": "DykaVShope"
+          },
+          {
+            "objectName": "SipDoSkore"
+          },
+          {
+            "objectName": "SipNaZemi"
+          },
+          {
+            "objectName": "SipDoShopu"
+          },
+          {
+            "objectName": "Srdiecko"
+          },
+          {
+            "objectName": "Level1"
+          },
+          {
+            "objectName": "CheckingLevelu1"
+          },
+          {
+            "objectName": "Level2"
+          },
+          {
+            "objectName": "Checkinglevelu2"
+          },
+          {
+            "objectName": "Level3"
+          },
+          {
+            "objectName": "Level4"
+          },
+          {
+            "objectName": "BackRound"
+          },
+          {
+            "objectName": "BackRound2"
+          },
+          {
+            "objectName": "InsidePortal"
+          },
+          {
+            "objectName": "PocetCoinov"
+          },
+          {
+            "objectName": "PocetCoinov2"
+          },
+          {
+            "objectName": "CommingSoon"
+          },
+          {
+            "objectName": "MiniNavod"
+          },
+          {
+            "objectName": "NavodNaMiniPravdla"
+          },
+          {
+            "objectName": "ShopNavod"
+          },
+          {
+            "objectName": "LevelNavod"
+          },
+          {
+            "objectName": "ShopShoppingNavod"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23282,6 +23505,17 @@
                 },
                 {
                   "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "InsidePortal",
+                    "Hrac",
+                    "0",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -23462,14 +23696,6 @@
                 },
                 {
                   "type": {
-                    "value": "ToggleGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "TogglePortal"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -23478,6 +23704,15 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "TogglePortal",
+                    "False"
                   ]
                 }
               ]
@@ -23538,14 +23773,6 @@
                 },
                 {
                   "type": {
-                    "value": "ToggleGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "TogglePortal"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -23554,6 +23781,15 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "TogglePortal",
+                    "False"
                   ]
                 }
               ]
@@ -23603,14 +23839,6 @@
                 },
                 {
                   "type": {
-                    "value": "ToggleGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "TogglePortal"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "CentreCamera"
                   },
                   "parameters": [
@@ -23619,6 +23847,15 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "TogglePortal",
+                    "False"
                   ]
                 }
               ]
@@ -23953,6 +24190,7 @@
           "comment": "Shop a Mece"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -23970,6 +24208,7 @@
               "comment": "Shop"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
@@ -26563,7 +26802,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "BackRound",
-          "tags": "",
           "texture": "ade0704478583ab868504aac427c5b14b4a6696a465663f1cbbac84ff266e4c1_tiled_Grass and Tree Background-1.png.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -26575,7 +26813,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Ground",
-          "tags": "",
           "texture": "New image-1.png2.png-1.png.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -26587,7 +26824,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Knight",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -26648,7 +26884,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Sword",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -26709,7 +26944,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "GrondUnderGround",
-          "tags": "",
           "texture": "New image5",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -26720,7 +26954,6 @@
         {
           "assetStoreId": "611e6ddf02acb40ee8eb3af3e64bd1986774fa390b8511f82edf431efaaa6c84",
           "name": "Zvitok",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -26766,7 +26999,6 @@
           "italic": false,
           "name": "Tutorial",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26788,7 +27020,6 @@
           "italic": false,
           "name": "Play",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26815,7 +27046,6 @@
           "italic": false,
           "name": "Settings",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26837,7 +27067,6 @@
           "italic": false,
           "name": "Exit",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26859,7 +27088,6 @@
           "italic": false,
           "name": "CreatedBy",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26881,7 +27109,6 @@
           "italic": false,
           "name": "Knight_Adventure",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -26898,6 +27125,47 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BackRound"
+          },
+          {
+            "objectName": "Ground"
+          },
+          {
+            "objectName": "Knight"
+          },
+          {
+            "objectName": "Sword"
+          },
+          {
+            "objectName": "GrondUnderGround"
+          },
+          {
+            "objectName": "Zvitok"
+          },
+          {
+            "objectName": "Tutorial"
+          },
+          {
+            "objectName": "Play"
+          },
+          {
+            "objectName": "Settings"
+          },
+          {
+            "objectName": "Exit"
+          },
+          {
+            "objectName": "CreatedBy"
+          },
+          {
+            "objectName": "Knight_Adventure"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -30056,7 +30324,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Hrac",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -30585,7 +30852,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Hrac3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -30692,7 +30958,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Hrac2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -31003,7 +31268,6 @@
         {
           "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
           "name": "Zivoty",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -31071,7 +31335,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "SipikyBar",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31584,7 +31847,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "NormalPlatforma",
-          "tags": "",
           "texture": "New image-1.png2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -31604,7 +31866,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaPravyRoh",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31655,7 +31916,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Stred",
-          "tags": "",
           "texture": "New image-1.png3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -31675,7 +31935,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatformaVlavo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31726,7 +31985,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PlatformaVpravoStred",
-          "tags": "",
           "texture": "New image-1.png.png-1.png.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -31746,7 +32004,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVpravoAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31816,7 +32073,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVlavoAEsteNieco",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31886,7 +32142,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVlavoVrch",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31968,7 +32223,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlnaSPravymRohom2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32019,7 +32273,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaVpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32101,7 +32354,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformaLavyRoh",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32152,7 +32404,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DalsiaPlatforma_Vpravo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32203,7 +32454,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "PlatformaVlavoStred",
-          "tags": "",
           "texture": "New image-1.png.png2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -32223,7 +32473,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackRound",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32266,7 +32515,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BackRound2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32309,7 +32557,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Spiky",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32371,7 +32618,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Spiky2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32433,7 +32679,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "skull",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -32495,7 +32740,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemakCerveny",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33186,7 +33430,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Necromancer",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -33601,7 +33844,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Srdiecko",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33644,7 +33886,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Srdiecko2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33687,7 +33928,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SipNaZemi",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33730,7 +33970,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Sip",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33797,7 +34036,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Sip3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33864,7 +34102,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Sip2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -33931,7 +34168,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Luk",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34025,7 +34261,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Luk2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34068,7 +34303,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Potion",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34130,7 +34364,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Potion2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34192,7 +34425,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Lava",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34235,7 +34467,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Lava2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34280,7 +34511,6 @@
           "italic": false,
           "name": "Arrows",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -34300,7 +34530,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34362,7 +34591,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Arrow",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34423,7 +34651,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Arrow2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34485,7 +34712,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Arrow3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34546,7 +34772,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Arrow4",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34607,7 +34832,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "SpaceBar",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34668,7 +34892,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Jump",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34729,7 +34952,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Warning",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34793,7 +35015,6 @@
           "italic": false,
           "name": "_1",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -34813,7 +35034,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Shop",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34883,7 +35103,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Shop2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34953,7 +35172,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "IntoShop",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -34996,7 +35214,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Mec",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35105,7 +35322,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Mec2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35214,7 +35430,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "MecVObchode",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35412,7 +35627,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dyka",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35512,7 +35726,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dyka2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35612,7 +35825,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DykaVShope",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -35754,7 +35966,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Coin",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35887,7 +36098,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Coin2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36019,7 +36229,6 @@
         {
           "assetStoreId": "611e6ddf02acb40ee8eb3af3e64bd1986774fa390b8511f82edf431efaaa6c84",
           "name": "HeartScrollBar",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -36057,7 +36266,6 @@
         {
           "assetStoreId": "611e6ddf02acb40ee8eb3af3e64bd1986774fa390b8511f82edf431efaaa6c84",
           "name": "HeartScrollBar2",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -36096,7 +36304,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Target",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36170,7 +36377,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "E",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36231,7 +36437,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "F",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36292,7 +36497,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36335,7 +36539,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "InsidePortal",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36378,7 +36581,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dvere1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36459,7 +36661,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dvere2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36502,7 +36703,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kluc",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36544,7 +36744,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kluc2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36586,7 +36785,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ladder",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36656,7 +36854,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ladder2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36726,7 +36923,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DrevenaPlatforma",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36796,7 +36992,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DrevenaPlatforma2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36858,7 +37053,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kontrolnaplatforma",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36928,7 +37122,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Dole",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36989,7 +37182,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "S",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -37052,7 +37244,6 @@
           "italic": false,
           "name": "TutorialFinished",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -37069,6 +37260,242 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Hrac"
+          },
+          {
+            "objectName": "Hrac3"
+          },
+          {
+            "objectName": "Hrac2"
+          },
+          {
+            "objectName": "Zivoty"
+          },
+          {
+            "objectName": "SipikyBar"
+          },
+          {
+            "objectName": "NormalPlatforma"
+          },
+          {
+            "objectName": "PlatformaPravyRoh"
+          },
+          {
+            "objectName": "Stred"
+          },
+          {
+            "objectName": "DalsiaPlatformaVlavo"
+          },
+          {
+            "objectName": "PlatformaVpravoStred"
+          },
+          {
+            "objectName": "PlatformaVpravoAEsteNieco"
+          },
+          {
+            "objectName": "PlatformaVlavoAEsteNieco"
+          },
+          {
+            "objectName": "PlatformaVlavoVrch"
+          },
+          {
+            "objectName": "PlnaSPravymRohom2"
+          },
+          {
+            "objectName": "PlatformaVpravo"
+          },
+          {
+            "objectName": "PlatformaLavyRoh"
+          },
+          {
+            "objectName": "DalsiaPlatforma_Vpravo"
+          },
+          {
+            "objectName": "PlatformaVlavoStred"
+          },
+          {
+            "objectName": "BackRound"
+          },
+          {
+            "objectName": "BackRound2"
+          },
+          {
+            "objectName": "Spiky"
+          },
+          {
+            "objectName": "Spiky2"
+          },
+          {
+            "objectName": "skull"
+          },
+          {
+            "objectName": "EnemakCerveny"
+          },
+          {
+            "objectName": "Necromancer"
+          },
+          {
+            "objectName": "Srdiecko"
+          },
+          {
+            "objectName": "Srdiecko2"
+          },
+          {
+            "objectName": "SipNaZemi"
+          },
+          {
+            "objectName": "Sip"
+          },
+          {
+            "objectName": "Sip3"
+          },
+          {
+            "objectName": "Sip2"
+          },
+          {
+            "objectName": "Luk"
+          },
+          {
+            "objectName": "Luk2"
+          },
+          {
+            "objectName": "Potion"
+          },
+          {
+            "objectName": "Potion2"
+          },
+          {
+            "objectName": "Lava"
+          },
+          {
+            "objectName": "Lava2"
+          },
+          {
+            "objectName": "Arrows"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Arrow"
+          },
+          {
+            "objectName": "Arrow2"
+          },
+          {
+            "objectName": "Arrow3"
+          },
+          {
+            "objectName": "Arrow4"
+          },
+          {
+            "objectName": "SpaceBar"
+          },
+          {
+            "objectName": "Jump"
+          },
+          {
+            "objectName": "Warning"
+          },
+          {
+            "objectName": "_1"
+          },
+          {
+            "objectName": "Shop"
+          },
+          {
+            "objectName": "Shop2"
+          },
+          {
+            "objectName": "IntoShop"
+          },
+          {
+            "objectName": "Mec"
+          },
+          {
+            "objectName": "Mec2"
+          },
+          {
+            "objectName": "MecVObchode"
+          },
+          {
+            "objectName": "Dyka"
+          },
+          {
+            "objectName": "Dyka2"
+          },
+          {
+            "objectName": "DykaVShope"
+          },
+          {
+            "objectName": "Coin"
+          },
+          {
+            "objectName": "Coin2"
+          },
+          {
+            "objectName": "HeartScrollBar"
+          },
+          {
+            "objectName": "HeartScrollBar2"
+          },
+          {
+            "objectName": "Target"
+          },
+          {
+            "objectName": "E"
+          },
+          {
+            "objectName": "F"
+          },
+          {
+            "objectName": "Portal"
+          },
+          {
+            "objectName": "InsidePortal"
+          },
+          {
+            "objectName": "Dvere1"
+          },
+          {
+            "objectName": "Dvere2"
+          },
+          {
+            "objectName": "Kluc"
+          },
+          {
+            "objectName": "Kluc2"
+          },
+          {
+            "objectName": "ladder"
+          },
+          {
+            "objectName": "ladder2"
+          },
+          {
+            "objectName": "DrevenaPlatforma"
+          },
+          {
+            "objectName": "DrevenaPlatforma2"
+          },
+          {
+            "objectName": "Kontrolnaplatforma"
+          },
+          {
+            "objectName": "Dole"
+          },
+          {
+            "objectName": "S"
+          },
+          {
+            "objectName": "TutorialFinished"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -40652,7 +41079,6 @@
         {
           "assetStoreId": "611e6ddf02acb40ee8eb3af3e64bd1986774fa390b8511f82edf431efaaa6c84",
           "name": "Backround",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -40693,7 +41119,6 @@
           "italic": false,
           "name": "Dead",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -40715,7 +41140,6 @@
           "italic": false,
           "name": "Dead2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -40734,7 +41158,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "ButtonPlayAgain",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -40798,7 +41221,6 @@
         {
           "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
           "name": "ButtonExit",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -40863,7 +41285,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40922,6 +41343,29 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Backround"
+          },
+          {
+            "objectName": "Dead"
+          },
+          {
+            "objectName": "Dead2"
+          },
+          {
+            "objectName": "ButtonPlayAgain"
+          },
+          {
+            "objectName": "ButtonExit"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -44743,7 +45187,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -44766,7 +45209,6 @@
               "leftMargin": 0,
               "name": "Thumb",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": false,
               "topMargin": 0,
@@ -44789,7 +45231,6 @@
               "leftMargin": 0,
               "name": "FillBar",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -44815,7 +45256,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -44836,7 +45276,24 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
@@ -47510,7 +47967,6 @@
               "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "State",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -47559,7 +48015,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "State"
+              }
+            ]
+          }
         }
       ]
     },
@@ -50140,7 +50604,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -50163,7 +50626,6 @@
               "leftMargin": 0,
               "name": "Idle",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": false,
               "topMargin": 0,
@@ -50193,7 +50655,6 @@
               "leftMargin": 0,
               "name": "Hovered",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": false,
               "topMargin": 0,
@@ -50215,7 +50676,6 @@
               "leftMargin": 0,
               "name": "Pressed",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": false,
               "topMargin": 0,
@@ -50225,7 +50685,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          }
         }
       ]
     },
@@ -51796,7 +52273,6 @@
               "assetStoreId": "",
               "height": 32,
               "name": "FillBar",
-              "tags": "",
               "texture": "sadsxcwes",
               "type": "TiledSpriteObject::TiledSprite",
               "width": 32,
@@ -51816,7 +52292,6 @@
               "assetStoreId": "",
               "height": 32,
               "name": "Bar",
-              "tags": "",
               "texture": "sadsxcwes",
               "type": "TiledSpriteObject::TiledSprite",
               "width": 32,
@@ -51831,7 +52306,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -51841,7 +52315,21 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
@@ -54264,7 +54752,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -54287,7 +54774,6 @@
               "leftMargin": 0,
               "name": "FillBar",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -54316,7 +54802,6 @@
               "leftMargin": 0,
               "name": "Buffer",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -54338,7 +54823,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "sadsxcwes",
               "tiled": true,
               "topMargin": 0,
@@ -54348,7 +54832,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Buffer"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
